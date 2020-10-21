@@ -1,34 +1,30 @@
-<p align="center">
-  <a href="https://vercel.com">
-    <img src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" height="96">
-    <h3 align="center">Vercel</h3>
-  </a>
-  <p align="center">Develop. Preview. Ship.</p>
-</p>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-[![CI Status](https://badgen.net/github/checks/vercel/vercel?label=CI)](https://github.com/vercel/vercel/actions?workflow=CI)
-[![Join the community on GitHub Discussions](https://badgen.net/badge/join%20the%20discussion/on%20github/black?icon=github)](https://github.com/vercel/vercel/discussions)
+## Getting Started
 
-## Usage
+First, run the development server:
 
-Vercel is the optimal workflow for frontend teams. All-in-one: Static and Jamstack deployment, Serverless Functions, and Global CDN.
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-Get started by [Importing a Git Project](https://vercel.com/import) and use `git push` to deploy. Alternatively, you can [install Vercel CLI](https://vercel.com/download).
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Documentation
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-For details on how to use Vercel, check out our [documentation](https://vercel.com/docs).
+## Learn More
 
-## Caught a Bug?
+To learn more about Next.js, take a look at the following resources:
 
-1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device
-2. Install dependencies with `yarn install`
-3. Compile the code: `yarn build`
-4. Link the package to the global module directory: `cd ./packages/now-cli && yarn link`
-5. You can start using `vercel` anywhere inside the command line
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-As always, you should use `yarn test-unit` to run the tests and see if your changes have broken anything.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## How to Create a Release
+## Deploy on Vercel
 
-If you have write access to this repository, you can read more about how to publish a release [here](https://github.com/vercel/vercel/wiki/Creating-a-Release).
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
